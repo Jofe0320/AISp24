@@ -98,6 +98,6 @@ print(X[0])
 example = X[0]
 
 sample = next(iter(data_ierator))
-print(sample[1])
+print("Real labels: ", sample[1])
 Y = nnet(sample[0])
-print(Y)
+print("Prdicted labels: ", Y)
